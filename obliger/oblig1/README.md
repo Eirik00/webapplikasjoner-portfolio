@@ -1,9 +1,10 @@
 ### Features
 
 
-###Sequence Diagram
+### Sequence Diagram
 - POST
-```seq
+```mermaid
+sequenceDiagram
     Bruker->>Side: Initialiserer oprettelse av et nytt prosjekt
     Side->>Server: HTTP POST med sending av prosjekt data
     Server->>DB: Sett inn nytt prosjekt i databasen
@@ -13,7 +14,8 @@
 ```
 
 - GET
-```seq
+```mermaid
+sequenceDiagram
 	Bruker->>Side: initialiser siden
 	Side->>Server: Hent ut data fra databasen
 	Server->>DB: Forespørsel om data
