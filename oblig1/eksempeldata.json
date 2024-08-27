@@ -1,0 +1,19 @@
+{
+    "portfolioNavn": "Default Name",
+    "beskrivelse": "blah blah blah",
+    "status": "Utvikling",
+    "offentlig": false,
+    "hovedBruker": {
+        "brukerId": 231
+    },
+    "medhjelper": [
+        {
+            "brukerId": 123,
+            "tilgang": 1
+        },
+        {
+            "brukerId": 234,
+            "tilgang": 2
+        }
+    ]
+}
