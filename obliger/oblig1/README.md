@@ -26,4 +26,7 @@ sequenceDiagram
 
 # Wireframe
 [Figma](https://www.figma.com/design/nlEgmvrbsPSFYl8yZK8GK1/Wireframing-(Copy)?node-id=0-1&t=CHKSLy4g1wgXLhle-1)
-![Wireframe of Website](https://github.com/Eirik00/webapplikasjoner-portfolio/blob/portfolio-v1/obliger/oblig1/Wireframe.png "Wireframe of Website")
+#### Home Page
+![Wireframe of Homepage](https://github.com/Eirik00/webapplikasjoner-portfolio/blob/portfolio-v1/obliger/oblig1/Wireframe_Home_Page.png "Wireframe of Website")
+#### Create Project Page
+![Wireframe of Create Porject Page](https://github.com/Eirik00/webapplikasjoner-portfolio/blob/portfolio-v1/obliger/oblig1/Wireframe_Home_Page.png "Wireframe of Website")
