@@ -29,4 +29,4 @@ sequenceDiagram
 #### Home Page
 ![Wireframe of Homepage](https://github.com/Eirik00/webapplikasjoner-portfolio/blob/portfolio-v1/obliger/oblig1/Wireframe_Home_Page.png "Wireframe of Website")
 #### Create Project Page
-![Wireframe of Create Porject Page](https://github.com/Eirik00/webapplikasjoner-portfolio/blob/portfolio-v1/obliger/oblig1/Wireframe_Home_Page.png "Wireframe of Website")
+![Wireframe of Create Porject Page](https://github.com/Eirik00/webapplikasjoner-portfolio/blob/portfolio-v1/obliger/oblig1/Wireframe_Create_Project.png "Wireframe of Website")
