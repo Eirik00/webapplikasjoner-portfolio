@@ -1,7 +1,7 @@
 ### Features
 
 
-### Sequence Diagram
+# Sequence Diagram
 - POST
 ```mermaid
 sequenceDiagram
@@ -23,4 +23,7 @@ sequenceDiagram
 	Server-->>Side: Formaterer dataen slik at den tilpasser siden
 	Side-->>Bruker: Viser siden med formatert og lesbart data
 ```
-###End
+
+# Wireframe
+[Figma](https://www.figma.com/design/nlEgmvrbsPSFYl8yZK8GK1/Wireframing-(Copy)?node-id=0-1&t=CHKSLy4g1wgXLhle-1)
+![Wireframe of Website](https://github.com/Eirik00/webapplikasjoner-portfolio/blob/portfolio-v1/obliger/oblig1/Wireframe.png "Wireframe of Website")
