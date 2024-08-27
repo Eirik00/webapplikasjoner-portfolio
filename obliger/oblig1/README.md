@@ -1,7 +1,7 @@
 ### Features
 
 
-###Sequence Diagram
+### Sequence Diagram
 - POST
 ```mermaid
 sequenceDiagram
