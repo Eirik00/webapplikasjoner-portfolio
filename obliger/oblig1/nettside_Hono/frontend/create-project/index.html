@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="../src/style.css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Nytt Prosjekt</title>
+  </head>
+  <body>
+    <header>
+      <h1>Portfolio</h1>
+      <p>Bruker: <a href="#">Test</a></p>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <a href="../">Prosjekter</a>
+        </li>
+        <li>
+          <a href="#" class="active">Lag Prosjekt</a>
+        </li>
+      </ul>
+    </nav>
+    <main>
+        <form id="projectForm">
+            <label for="projectName">Prosjekt Navn:</label>
+            <input type="text" id="projectName" name="projectName" required />
+
+            <label for="projectPrivate">Privat Prosjekt?</label>
+            <input type="checkbox" id="projectPrivate" name="projectPrivate" />
+            <br>
+            <label for="projectDescription">Prosjekt Beskrivelse:</label>
+            <textarea id="projectDescription" name="projectDescription" rows="8" cols="50"></textarea>
+
+            <button type="submit" id="submitBtn">Lag Prosjekt</button>
+        </form>
+    </main>
+    <footer>
+      <p>Footer</p>
+    </footer>
+    <script type="module" src="../src/main.ts"></script>
+  </body>
+</html>
