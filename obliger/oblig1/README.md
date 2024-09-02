@@ -30,3 +30,9 @@ sequenceDiagram
 ![Wireframe of Homepage](https://github.com/Eirik00/webapplikasjoner-portfolio/blob/portfolio-v1/obliger/oblig1/Wireframe_Home_Page.png "Wireframe of Website")
 #### Create Project Page
 ![Wireframe of Create Porject Page](https://github.com/Eirik00/webapplikasjoner-portfolio/blob/portfolio-v1/obliger/oblig1/Wireframe_Create_Project.png "Wireframe of Website")
+
+### Network data
+#### Home Page
+![Network data from Home Page](https://github.com/Eirik00/webapplikasjoner-portfolio/blob/portfolio-v1/obliger/oblig1/Network_Home_Page.png "Network data from Home Page")
+#### Create Project Page
+![Network data from Create Project Page](https://github.com/Eirik00/webapplikasjoner-portfolio/blob/portfolio-v1/obliger/oblig1/Network_Create_Project.png "Network data from Project Page")
