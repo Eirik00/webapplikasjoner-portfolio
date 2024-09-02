@@ -88,6 +88,7 @@ main {
 main article {
   background-color: var(--maincolor2);
   
+  text-align: center;
   margin: 1.5rem;
   width: 20rem;
   height: 20rem;
@@ -104,6 +105,9 @@ main article hr {
   margin: 0 auto;
 }
 
+main article ul {
+  list-style-position: inside;
+}
 /* Form */
 
 form {
