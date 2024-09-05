@@ -12,7 +12,7 @@ const projects: Project[] = []
 async function setData(){
   const data = await fs.readFile("./JSON/projects.json", "utf-8")
   const dataAsJson = JSON.parse(data)
-  dataAsJson?.map(item => projects.push(item))
+  dataAsJson?.map((item: any) => projects.push(item))
 }
 setData()
 
