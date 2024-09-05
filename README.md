@@ -11,3 +11,4 @@
 - [README.md](https://github.com/Eirik00/webapplikasjoner-portfolio/blob/portfolio-v1/obliger/oblig1/README.md)
 - [eksempeldata.json (Example Data)](https://github.com/Eirik00/webapplikasjoner-portfolio/blob/portfolio-v1/obliger/oblig1/eksempeldata.json)
 ### Oblig 2 (Task 2)
+### [Oblig 2 (Task 2)](https://github.com/Eirik00/webapplikasjoner-portfolio/blob/portfolio-v1/obliger/oblig2)
