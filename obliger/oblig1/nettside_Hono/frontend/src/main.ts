@@ -6,9 +6,9 @@ document.addEventListener("DOMContentLoaded", function() {
     form?.addEventListener("submit", async function(event) {
         event.preventDefault();
 
-        const projectName = document.getElementById("projectName")?.value;
-        const projectDesc = document.getElementById("projectDescription")?.value;
-        const projectPrivate = document.getElementById("projectPrivate")?.checked;
+        const projectName = (<HTMLInputElement>document.getElementById("projectName"))?.value;
+        const projectDesc = (<HTMLInputElement>document.getElementById("projectDescription"))?.value;
+        const projectPrivate = (<HTMLInputElement>document.getElementById("projectPrivate"))?.checked;
         console.log(`navn: ${projectName} | Desc: ${projectDesc} | privat? ${projectPrivate}`);
     
         const newProject = {
@@ -51,8 +51,8 @@ if(mainTag !== null){
     ofetch("http://localhost:3000/data")
     .then((res)=> {
         console.log(res[0])
-        res?.map(item => {
-                const userList = item.contributer?.map(contributer => 
+        res?.map((item: any) => {
+                const userList = item.contributer?.map((contributer: any) => 
                     `<li>${contributer.userID}</li>`
                 ).join('') || '';
         
