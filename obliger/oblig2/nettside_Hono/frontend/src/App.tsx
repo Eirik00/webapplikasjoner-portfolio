@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react'
 import Layout from './components/Layout'
 import Projects from './components/Projects'
+import { Route, Routes } from 'react-router-dom'
+import CreateProjects from './components/CreateProjects'
 
 
 function App() {
@@ -19,7 +21,10 @@ function App() {
 
   return (
     <Layout>
-      <Projects projectList={projects}/>
+      <Routes>
+        <Route path="/" element={<Projects projectList={projects}/>} />
+        <Route path="/create-project/" element={<CreateProjects />} />
+      </Routes>
     </Layout>
   )
 }

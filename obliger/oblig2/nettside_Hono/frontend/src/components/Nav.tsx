@@ -1,12 +1,14 @@
+import { Link } from "react-router-dom";
+
 export default function Nav() {
     return(
         <nav>
             <ul>
                 <li>
-                    <a href="#" className="active">Prosjekter</a>
+                    <Link to="/" className="active">Prosjekter</Link>
                 </li>
                 <li>
-                    <a href="create-project/">Lag Prosjekt</a>
+                    <Link to="/create-project/">Lag Prosjekt</Link>
                 </li>
             </ul>
         </nav>
