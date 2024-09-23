@@ -1,6 +1,18 @@
-export default function CreateProjects(){
+import { useState } from "react"
+
+export default function CreateProjects({setNewProject}){
+    const [name, setName] = useState("")
+    const [private, setPrivate] = useState(false)
+    const [description, setDescription] = useState("")
+
+
+    const handleSubmit = (e: React.SyntheticEvent) => {
+        e.preventDefault()
+
+    }
+
     return(
-        <form>
+        <form onSubmit={handleSubmit}>
             <label htmlFor="projectName">Prosjekt Navn:</label>
             <input type="text" id="projectName" name="projectName" required />
 
