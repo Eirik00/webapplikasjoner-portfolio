@@ -1,8 +1,8 @@
 import { useState } from "react"
 
-export default function CreateProjects({setNewProject}){
+export default function CreateProjects({setNewProject}: any){
     const [name, setName] = useState("")
-    const [private, setPrivate] = useState(false)
+    const [priv, setPriv] = useState(false)
     const [description, setDescription] = useState("")
 
 
