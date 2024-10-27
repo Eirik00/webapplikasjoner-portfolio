@@ -62,6 +62,8 @@ export default function ProjectForm({ initialProject, onSubmit, mode }: ProjectF
         admin: { userID: 123 },
         contributer: [],
       });
+    }else{
+        window.location.href = "/";
     }
   };
 
@@ -70,10 +72,10 @@ export default function ProjectForm({ initialProject, onSubmit, mode }: ProjectF
   }
 
   return (
-    <form onSubmit={handleSubmit} className="space-y-6">
-      <div className="space-y-4">
+    <form onSubmit={handleSubmit}>
+      <div>
         <div>
-          <label htmlFor="projectName" className="block text-sm font-medium">
+          <label htmlFor="projectName">
             Project Name:
           </label>
           <input
@@ -83,12 +85,11 @@ export default function ProjectForm({ initialProject, onSubmit, mode }: ProjectF
             value={formData.projectName}
             onChange={handleChange}
             required
-            className="mt-1 block w-full rounded-md border"
           />
         </div>
 
         <div>
-          <label htmlFor="status" className="block text-sm font-medium">
+          <label htmlFor="status">
             Status:
           </label>
           <select
@@ -96,7 +97,6 @@ export default function ProjectForm({ initialProject, onSubmit, mode }: ProjectF
             name="status"
             value={formData.status}
             onChange={handleChange}
-            className="mt-1 block w-full rounded-md border"
           >
             <option value="draft">Draft</option>
             <option value="in-progress">In Progress</option>
@@ -106,7 +106,7 @@ export default function ProjectForm({ initialProject, onSubmit, mode }: ProjectF
         </div>
 
         <div>
-          <label htmlFor="category" className="block text-sm font-medium">
+          <label htmlFor="category">
             Category:
           </label>
           <input
@@ -115,12 +115,11 @@ export default function ProjectForm({ initialProject, onSubmit, mode }: ProjectF
             name="category"
             value={formData.category}
             onChange={handleChange}
-            className="mt-1 block w-full rounded-md border"
           />
         </div>
 
         <div>
-          <label htmlFor="description" className="block text-sm font-medium">
+          <label htmlFor="description">
             Description:
           </label>
           <textarea
@@ -129,18 +128,16 @@ export default function ProjectForm({ initialProject, onSubmit, mode }: ProjectF
             rows={8}
             value={formData.description}
             onChange={handleChange}
-            className="mt-1 block w-full rounded-md border"
           />
         </div>
 
         <div>
-          <label className="flex items-center gap-2">
+          <label>
             <input
               type="checkbox"
               name="public"
               checked={formData.public}
               onChange={handleChange}
-              className="rounded border"
             />
             <span className="text-sm font-medium">Public Project</span>
           </label>
@@ -149,7 +146,6 @@ export default function ProjectForm({ initialProject, onSubmit, mode }: ProjectF
 
       <button
         type="submit"
-        className="w-full px-4 py-2 bg-blue-500 text-white rounded-md"
       >
         {mode === "create" ? "Create Project" : "Update Project"}
       </button>
