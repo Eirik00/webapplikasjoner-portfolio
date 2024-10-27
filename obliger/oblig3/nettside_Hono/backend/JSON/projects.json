@@ -1,0 +1,98 @@
+[
+    {
+        "projectId": 1,
+        "projectName": "Project 1",
+        "description": "Kult prosjekt!",
+        "status": "Utvikling",
+        "createdAt": "2024-09-12T13:59:16.168Z",
+        "category": "project",
+        "public": false,
+        "Admin": {
+            "userID": 231
+        },
+        "contributer": [
+            {
+                "userID": 123,
+                "access": 1
+            },
+            {
+                "userID": 234,
+                "access": 2
+            }
+        ]
+    },
+    {
+        "projectId": 2,
+        "projectName": "Project 2",
+        "description": "Kulere prosjekt!",
+        "status": "Utvikling",
+        "createdAt": "2024-06-12T13:59:16.168Z",
+        "category": "app",
+        "public": true,
+        "Admin": {
+            "userID": 231
+        },
+        "contributer": [
+            {
+                "userID": 123,
+                "access": 1
+            },
+            {
+                "userID": 234,
+                "access": 2
+            }
+        ]
+    },
+    {
+        "projectId": 3,
+        "projectName": "Project 2",
+        "description": "Kulere prosjekt!",
+        "status": "Utvikling",
+        "createdAt": "2024-09-10T13:59:16.168Z",
+        "category": "project",
+        "public": true,
+        "Admin": {
+            "userID": 231
+        },
+        "contributer": [
+            {
+                "userID": 123,
+                "access": 1
+            },
+            {
+                "userID": 234,
+                "access": 2
+            }
+        ]
+    },
+    {
+        "projectId": 4,
+        "projectName": "Lorem Ipsum",
+        "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium.",
+        "status": "Utvikling",
+        "createdAt": "2024-01-23T13:59:16.168Z",
+        "category": "text",
+        "public": true,
+        "Admin": {
+            "userID": 231
+        },
+        "contributer": [
+            {
+                "userID": 123,
+                "access": 1
+            },
+            {
+                "userID": 234,
+                "access": 2
+            },
+            {
+                "userID": 234,
+                "access": 2
+            },
+            {
+                "userID": 234,
+                "access": 2
+            }
+        ]
+    }
+]
