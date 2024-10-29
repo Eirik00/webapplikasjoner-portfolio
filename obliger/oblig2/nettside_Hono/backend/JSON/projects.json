@@ -27,7 +27,7 @@
         "description": "Kulere prosjekt!",
         "status": "Utvikling",
         "createdAt": "2024-06-12T13:59:16.168Z",
-        "category": "project",
+        "category": "app",
         "public": true,
         "Admin": {
             "userID": 231
@@ -71,7 +71,7 @@
         "description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium.",
         "status": "Utvikling",
         "createdAt": "2024-01-23T13:59:16.168Z",
-        "category": "project",
+        "category": "text",
         "public": true,
         "Admin": {
             "userID": 231

@@ -7,7 +7,7 @@ type CategoryType = {
     ammount: number,
 }
 
-export default function Projects({ projectList }:any ) {
+export default function Projects({ projectList, setInitialProject }:any ) {
     const [categoryList, setCategoryList] = useState<CategoryType[]>([])
 
     const getProjectCategories = () =>{
@@ -33,9 +33,8 @@ export default function Projects({ projectList }:any ) {
             <ul>
                 {categoryList?.map((item: CategoryType, index: number) => <li key={index}>{item.name}: {item.ammount}</li>)}
             </ul>
-            {projectList?.map((projects:any) => <ProjectCard key={projects.projectId}
-            projectName={projects.projectName} description={projects.description} 
-            admin={projects.Admin} userList={projects.contributer} />)}
+            {projectList?.map((projects:ProjectType) => <ProjectCard key={projects.projectId}
+            project={projects} setInitialProject={setInitialProject} />)}
         </main>
     )
 }

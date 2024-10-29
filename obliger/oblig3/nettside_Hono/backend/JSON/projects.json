@@ -1,0 +1,41 @@
+[
+  {
+    "projectId": 2,
+    "projectName": "Gameflop",
+    "description": "A mobile game with a cute character",
+    "status": "in-progress",
+    "createdAt": "2024-10-27T16:04:02.345Z",
+    "category": "App",
+    "public": false,
+    "admin": {
+      "userID": 123
+    },
+    "contributer": []
+  },
+  {
+    "projectId": 1,
+    "projectName": "Android App",
+    "description": "App to see steps and track speed\n\nThis is an updated line!",
+    "status": "draft",
+    "createdAt": "2024-10-27T16:01:38.861Z",
+    "category": "App",
+    "public": true,
+    "admin": {
+      "userID": 123
+    },
+    "contributer": []
+  },
+  {
+    "projectId": 2,
+    "projectName": "Gameflop",
+    "description": "A mobile game with a cute character\nnew LINE!!!",
+    "status": "in-progress",
+    "createdAt": "2024-10-27T16:04:02.345Z",
+    "category": "App",
+    "public": false,
+    "admin": {
+      "userID": 123
+    },
+    "contributer": []
+  }
+]
